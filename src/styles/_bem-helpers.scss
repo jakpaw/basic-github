@@ -1,0 +1,13 @@
+// https://una.im/2013/10/15/sass-3-3-at-root-bem/
+
+@mixin e($name) {
+  @at-root #{&}__#{$name} {
+    @content;
+  }
+}
+
+@mixin m($name) {
+  @at-root #{&}--#{$name} {
+    @content;
+  }
+}

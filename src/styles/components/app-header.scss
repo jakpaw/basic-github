@@ -1,0 +1,39 @@
+@import '../bem-helpers';
+@import '../common';
+
+$app-header-button-size: 10px;
+$app-header-button-spacing: $app-header-button-size;
+
+.app-header {
+  display: flex;
+  align-items: center;
+
+  padding: $default-padding;
+
+  @include e(button) {
+    width: $app-header-button-size;
+    height: $app-header-button-size;
+
+    padding: 0; // reset default padding
+
+    border: none; // reset default border
+    border-radius: 50%;
+
+    &:not(:last-child) {
+      margin-right: $app-header-button-spacing;
+    }
+
+    @include m(close) {
+      background-color: #ff594f;
+    }
+
+    @include m(minimize) {
+      background-color: #ffbc1b;
+    }
+
+    @include m(maximize) {
+      background-color: #00cd46;
+    }
+  }
+
+}
