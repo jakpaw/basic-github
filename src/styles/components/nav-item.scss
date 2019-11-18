@@ -25,6 +25,8 @@ $nav-item-hover-active-color: #292a48;
     padding: 0 $default-padding;
 
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1;
   }
 
   @include e(icon) {
@@ -35,14 +37,12 @@ $nav-item-hover-active-color: #292a48;
   @include e(label) {
     margin-left: 10px;
 
-    font-size: 14px;
     color: #fff;
   }
 
   @include e(count) {
     margin-left: auto;
 
-    font-size: 14px;
     color: #8a8995;
   }
 

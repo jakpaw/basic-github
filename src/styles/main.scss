@@ -3,8 +3,6 @@
 
 html {
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  line-height: 1;
   box-sizing: border-box;
 }
 
@@ -38,9 +36,4 @@ main {
 
 nav {
   grid-area: nav;
-}
-
-main {
-  background-color: #f6f6f6;
-  overflow-y: auto;
 }

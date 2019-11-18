@@ -1,0 +1,21 @@
+@import '../bem-helpers';
+@import '../common';
+
+.issues-group {
+  padding: 0 $default-padding;
+
+  @include e(label) {
+    margin: 12px 0 10px;
+
+    font-size: 12px;
+    line-height: 8px;
+    color: #8a8995;
+  }
+
+  @include e(content) {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+}
