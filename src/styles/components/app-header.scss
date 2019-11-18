@@ -5,10 +5,14 @@ $app-header-button-size: 10px;
 $app-header-button-spacing: $app-header-button-size;
 
 .app-header {
+  height: 40px;
+
   display: flex;
   align-items: center;
 
-  padding: $default-padding;
+  padding: 0 $default-padding;
+
+  background-color: $sidebar-background-color;
 
   @include e(button) {
     width: $app-header-button-size;

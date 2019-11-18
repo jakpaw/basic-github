@@ -1,4 +1,17 @@
 @import '~normalize.css/normalize';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+// https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 html,
 body {
@@ -25,11 +38,6 @@ main {
 
 nav {
   grid-area: nav;
-}
-
-header,
-nav {
-  background-color: #101022;
 }
 
 main {

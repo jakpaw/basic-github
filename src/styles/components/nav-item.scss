@@ -1,0 +1,49 @@
+@import '../bem-helpers';
+@import '../common';
+
+$nav-item-hover-active-color: #292a48;
+
+.nav-item {
+  height: 50px;
+
+  list-style: none;
+
+  &:hover {
+    background-color: $nav-item-hover-active-color;
+  }
+
+  @include m(active) {
+    background-color: $nav-item-hover-active-color;
+  }
+
+  @include e(link) {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 $default-padding;
+
+    text-decoration: none;
+  }
+
+  @include e(icon) {
+    width: 16px;
+    height: 16px;
+  }
+
+  @include e(label) {
+    margin-left: 10px;
+
+    font-size: 14px;
+    color: #fff;
+  }
+
+  @include e(count) {
+    margin-left: auto;
+
+    font-size: 14px;
+    color: #8a8995;
+  }
+
+}
