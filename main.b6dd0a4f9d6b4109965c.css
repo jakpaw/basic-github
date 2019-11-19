@@ -11,7 +11,7 @@
 
 .issues{background-color:#f6f6f6}.issues__list{height:100%;overflow-y:auto;margin:0;padding:0;list-style:none}
 
-.issues-group{padding:0 20px 0 15px}.issues-group__label{height:8px;margin:12px 0 10px;font-size:12px;line-height:8px;letter-spacing:0.005em;color:#8a8995}.issues-group__content{margin:0;padding:0;list-style:none}
+.issues-group{padding:0 20px 0 15px}.issues-group__label{height:8px;margin:11px 0 11px;font-size:12px;line-height:8px;letter-spacing:0.005em;color:#8a8995}.issues-group__content{margin:0;padding:0;list-style:none}
 
-.issue-card{height:40px;padding:0 10px;margin-bottom:5px;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:justify;justify-content:space-between;border:1px solid #e0e0e0;border-radius:5px;background-color:#fff}.issue-card__label{font-size:15px;line-height:1;letter-spacing:0.005em;color:#080606}.issue-card__star{width:17px;height:17px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(26337296a7096c44733de2f185a72705.svg) no-repeat center}.issue-card__star:checked{background-image:url(bf25df085a9c484c204623ee10442d7d.svg)}
+.issue-card{height:40px;padding:0 11px;margin-bottom:5px;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:justify;justify-content:space-between;border:1px solid #e0e0e0;border-radius:5px;background-color:#fff}.issue-card__label{font-size:15px;line-height:1;letter-spacing:0.005em;color:#080606}.issue-card__star{width:17px;height:17px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:url(26337296a7096c44733de2f185a72705.svg) no-repeat center}.issue-card__star:checked{background-image:url(bf25df085a9c484c204623ee10442d7d.svg)}
 
