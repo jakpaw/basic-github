@@ -1,10 +1,10 @@
 @import '../bem-helpers';
 @import '../common';
 
-$app-header-button-size: 10px;
-$app-header-button-spacing: $app-header-button-size;
+$header-button-size: 10px;
+$header-button-spacing: $header-button-size;
 
-.app-header {
+.header {
   height: 40px;
 
   display: flex;
@@ -15,8 +15,8 @@ $app-header-button-spacing: $app-header-button-size;
   background-color: $sidebar-background-color;
 
   @include e(button) {
-    width: $app-header-button-size;
-    height: $app-header-button-size;
+    width: $header-button-size;
+    height: $header-button-size;
 
     padding: 0; // reset default padding
 
@@ -24,7 +24,7 @@ $app-header-button-spacing: $app-header-button-size;
     border-radius: 50%;
 
     &:not(:last-child) {
-      margin-right: $app-header-button-spacing;
+      margin-right: $header-button-spacing;
     }
 
     @include m(close) {

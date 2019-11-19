@@ -1,0 +1,17 @@
+@import '../common';
+@import '../bem-helpers';
+
+.issues {
+  background-color: #f6f6f6;
+
+  @include e(list) {
+    height: 100%;
+
+    overflow-y: auto;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+}

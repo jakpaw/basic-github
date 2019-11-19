@@ -6,116 +6,118 @@
 </head>
 
 <body>
-  <header class="app-header">
-    <button class="app-header__button app-header__button--close"></button>
-    <button class="app-header__button app-header__button--minimize"></button>
-    <button class="app-header__button app-header__button--maximize"></button>
-  </header>
-  <nav>
-    <ul class="nav">
-      <li class="nav-item nav-item--active">
-        <a class="nav-item__link" href="#">
-          <img class="nav-item__icon" src="./images/icon-github.svg" alt="Github logo">
-          <span class="nav-item__label">
-            All
-          </span>
-          <span class="nav-item__count">
-            12
-          </span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-item__link" href="#">
-          <img class="nav-item__icon" src="./images/icon-open-issue.svg" alt="Letter i in circle">
-          <span class="nav-item__label">
-            Open
-          </span>
-          <span class="nav-item__count">
-            4
-          </span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-item__link" href="#">
-          <img class="nav-item__icon" src="./images/icon-closed-issue.svg" alt="Tick in circle">
-          <span class="nav-item__label">
-            Closed
-          </span>
-          <span class="nav-item__count">
-            8
-          </span>
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <main>
-    <ol class="issues-list">
-      <li class="issues-group">
-        <div class="issues-group__label">
-          19-07-2016
-        </div>
-        <ol class="issues-group__content">
-          <li class="issue-card">
-            <span class="issue-card__label">Page changes</span>
-            <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
-          </li>
-          <li class="issue-card">
-            <span class="issue-card__label">Review of last issues</span>
-            <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
-          </li>
-        </ol>
-      </li>
-      <li class="issues-group">
-        <div class="issues-group__label">
-          18-07-2016
-        </div>
-        <ol class="issues-group__content">
-          <li class="issue-card">
-            <span class="issue-card__label">Visual UI Update Review</span>
-            <input class="issue-card__star" type="checkbox" aria-label="Starred">
-          </li>
-          <li class="issue-card">
-            <span class="issue-card__label">Sidebar changes</span>
-            <input class="issue-card__star" type="checkbox" aria-label="Starred">
-          </li>
-        </ol>
-      </li>
-      <li class="issues-group">
-        <div class="issues-group__label">
-          15-07-2016
-        </div>
-        <ol class="issues-group__content">
-          <li class="issue-card">
-            <span class="issue-card__label">Crash update</span>
-            <input class="issue-card__star" type="checkbox" aria-label="Starred">
-          </li>
-          <li class="issue-card">
-            <span class="issue-card__label">Page visual UI Update Review</span>
-            <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
-          </li>
-          <li class="issue-card">
-            <span class="issue-card__label">Sidebar update</span>
-            <input class="issue-card__star" type="checkbox" aria-label="Starred">
-          </li>
-        </ol>
-      </li>
-      <li class="issues-group">
-        <div class="issues-group__label">
-          14-07-2016
-        </div>
-        <ol class="issues-group__content">
-          <li class="issue-card">
-            <span class="issue-card__label">Crash issue</span>
-            <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
-          </li>
-          <li class="issue-card">
-            <span class="issue-card__label">Visual update & Crash resolve</span>
-            <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
-          </li>
-        </ol>
-      </li>
-    </ol>
-  </main>
+  <div class="app">
+    <header class="header app__header">
+      <button class="header__button header__button--close"></button>
+      <button class="header__button header__button--minimize"></button>
+      <button class="header__button header__button--maximize"></button>
+    </header>
+    <nav class="nav app__nav">
+      <ul class="nav__list">
+        <li class="nav-item nav-item--active">
+          <a class="nav-item__link" href="#">
+            <img class="nav-item__icon" src="./images/icon-github.svg" alt="Github logo">
+            <span class="nav-item__label">
+              All
+            </span>
+            <span class="nav-item__count">
+              12
+            </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item__link" href="#">
+            <img class="nav-item__icon" src="./images/icon-open-issue.svg" alt="Letter i in circle">
+            <span class="nav-item__label">
+              Open
+            </span>
+            <span class="nav-item__count">
+              4
+            </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item__link" href="#">
+            <img class="nav-item__icon" src="./images/icon-closed-issue.svg" alt="Tick in circle">
+            <span class="nav-item__label">
+              Closed
+            </span>
+            <span class="nav-item__count">
+              8
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main class="issues app__issues">
+      <ol class="issues__list">
+        <li class="issues-group">
+          <div class="issues-group__label">
+            19-07-2016
+          </div>
+          <ol class="issues-group__content">
+            <li class="issue-card">
+              <span class="issue-card__label">Page changes</span>
+              <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
+            </li>
+            <li class="issue-card">
+              <span class="issue-card__label">Review of last issues</span>
+              <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
+            </li>
+          </ol>
+        </li>
+        <li class="issues-group">
+          <div class="issues-group__label">
+            18-07-2016
+          </div>
+          <ol class="issues-group__content">
+            <li class="issue-card">
+              <span class="issue-card__label">Visual UI Update Review</span>
+              <input class="issue-card__star" type="checkbox" aria-label="Starred">
+            </li>
+            <li class="issue-card">
+              <span class="issue-card__label">Sidebar changes</span>
+              <input class="issue-card__star" type="checkbox" aria-label="Starred">
+            </li>
+          </ol>
+        </li>
+        <li class="issues-group">
+          <div class="issues-group__label">
+            15-07-2016
+          </div>
+          <ol class="issues-group__content">
+            <li class="issue-card">
+              <span class="issue-card__label">Crash update</span>
+              <input class="issue-card__star" type="checkbox" aria-label="Starred">
+            </li>
+            <li class="issue-card">
+              <span class="issue-card__label">Page visual UI Update Review</span>
+              <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
+            </li>
+            <li class="issue-card">
+              <span class="issue-card__label">Sidebar update</span>
+              <input class="issue-card__star" type="checkbox" aria-label="Starred">
+            </li>
+          </ol>
+        </li>
+        <li class="issues-group">
+          <div class="issues-group__label">
+            14-07-2016
+          </div>
+          <ol class="issues-group__content">
+            <li class="issue-card">
+              <span class="issue-card__label">Crash issue</span>
+              <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
+            </li>
+            <li class="issue-card">
+              <span class="issue-card__label">Visual update & Crash resolve</span>
+              <input class="issue-card__star" type="checkbox" aria-label="Starred" checked>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </main>
+  </div>
 </body>
 
 </html>
