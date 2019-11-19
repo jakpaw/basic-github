@@ -43,6 +43,7 @@ $nav-item-hover-active-color: #292a48;
   @include e(count) {
     margin-left: auto;
 
+    font-family: 'Proxima Nova', 'Roboto', sans-serif; // Proxima Nova is not free :(
     color: #8a8995;
   }
 
