@@ -22,7 +22,7 @@ $nav-item-hover-active-color: #292a48;
     display: flex;
     align-items: center;
 
-    padding: 0 $default-padding;
+    padding-left: $default-padding;
 
     text-decoration: none;
     font-size: 14px;
@@ -36,16 +36,20 @@ $nav-item-hover-active-color: #292a48;
   }
 
   @include e(label) {
-    margin-left: 10px;
+    margin-left: 9px;
 
     color: #fff;
   }
 
   @include e(count) {
+    width: 42px;
+
     margin-left: auto;
 
+    text-align: center;;
+
     font-family: 'Proxima Nova', 'Roboto', sans-serif; // Proxima Nova is not free :(
-    color: #8a8995;
+    color: $secondary-text-color;
   }
 
 }

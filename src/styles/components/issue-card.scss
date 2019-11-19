@@ -3,7 +3,7 @@
 .issue-card {
   height: 40px;
 
-  padding: 0 10px; // left padding is 11px in the project, but I've adjusted it for consistency
+  padding: 0 11px; // padding is 11px in design, but it should probably be 10px for consistency
   margin-bottom: 5px;
 
   display: flex;
