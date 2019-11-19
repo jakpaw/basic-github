@@ -27,6 +27,7 @@ $nav-item-hover-active-color: #292a48;
     text-decoration: none;
     font-size: 14px;
     line-height: 1;
+    letter-spacing: 0.005em;
   }
 
   @include e(icon) {
